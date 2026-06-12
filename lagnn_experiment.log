@@ -1,0 +1,614 @@
+2026-06-11 22:16:43,476 - INFO - 
+################################################################################
+2026-06-11 22:16:43,476 - INFO - Starting LAGNN experiment (with interaction frequency and common neighbor encoding) using 5 random seeds
+2026-06-11 22:16:43,477 - INFO - Seeds: [42, 43, 44, 45, 46]
+2026-06-11 22:16:43,477 - INFO - Model configuration:
+2026-06-11 22:16:43,478 - INFO -   Positional encoding: True
+2026-06-11 22:16:43,479 - INFO -   Time information: True
+2026-06-11 22:16:43,479 - INFO -   In-neighbors: True
+2026-06-11 22:16:43,479 - INFO -   Out-neighbors: True
+2026-06-11 22:16:43,479 - INFO -   Interaction frequency encoding: True (integrated into attention)
+2026-06-11 22:16:43,480 - INFO -   Common neighbor encoding: True (only historical count, integrated into attention)
+2026-06-11 22:16:43,480 - INFO -   Negative sampling: disabled
+2026-06-11 22:16:43,480 - INFO - ################################################################################
+2026-06-11 22:16:43,481 - INFO - 
+################################################################################
+2026-06-11 22:16:43,481 - INFO - Running experiment 1/5 - Random seed: 42
+2026-06-11 22:16:43,481 - INFO - ################################################################################
+2026-06-11 22:16:43,482 - INFO - 
+============================================================
+2026-06-11 22:16:43,482 - INFO - Running experiment (no negative sampling) - Random seed: 42
+2026-06-11 22:16:43,483 - INFO - ============================================================
+2026-06-11 22:16:45,041 - INFO - 
+=== LAGNN Experiment (No Negative Sampling) - Random Seed: 42 ===
+2026-06-11 22:16:45,041 - INFO - Device: cuda
+2026-06-11 22:16:45,042 - INFO - Total nodes: 1899
+2026-06-11 22:16:45,042 - INFO - Train edges: 47868, Val edges: 5983, Test edges: 5984
+2026-06-11 22:16:45,042 - INFO - Positional encoding: True
+2026-06-11 22:16:45,043 - INFO - Time information: True
+2026-06-11 22:16:45,043 - INFO - In-neighbors: True
+2026-06-11 22:16:45,043 - INFO - Out-neighbors: True
+2026-06-11 22:16:45,044 - INFO - Interaction frequency encoding: True (integrated into attention)
+2026-06-11 22:16:45,044 - INFO - Common neighbor encoding: True (only historical count, integrated into attention)
+2026-06-11 22:17:06,957 - INFO - Epoch 1 | Loss: 0.6432 | Val MRR: 0.0111 | HITS@10: 0.0236
+2026-06-11 22:17:06,966 - INFO - Model improved, best val MRR: 0.0111, saved to best_model_seed_42.pth
+2026-06-11 22:17:27,289 - INFO - Epoch 2 | Loss: 0.5816 | Val MRR: 0.1292 | HITS@10: 0.1932
+2026-06-11 22:17:27,298 - INFO - Model improved, best val MRR: 0.1292, saved to best_model_seed_42.pth
+2026-06-11 22:17:48,019 - INFO - Epoch 3 | Loss: 0.4930 | Val MRR: 0.3147 | HITS@10: 0.4170
+2026-06-11 22:17:48,028 - INFO - Model improved, best val MRR: 0.3147, saved to best_model_seed_42.pth
+2026-06-11 22:18:07,971 - INFO - Epoch 4 | Loss: 0.4456 | Val MRR: 0.4081 | HITS@10: 0.4847
+2026-06-11 22:18:07,980 - INFO - Model improved, best val MRR: 0.4081, saved to best_model_seed_42.pth
+2026-06-11 22:18:28,536 - INFO - Epoch 5 | Loss: 0.4193 | Val MRR: 0.4481 | HITS@10: 0.5176
+2026-06-11 22:18:28,544 - INFO - Model improved, best val MRR: 0.4481, saved to best_model_seed_42.pth
+2026-06-11 22:18:52,309 - INFO - 
+################################################################################
+2026-06-11 22:18:52,310 - INFO - Starting LAGNN experiment (with interaction frequency and common neighbor encoding) using 5 random seeds
+2026-06-11 22:18:52,310 - INFO - Seeds: [42, 43, 44, 45, 46]
+2026-06-11 22:18:52,311 - INFO - Model configuration:
+2026-06-11 22:18:52,311 - INFO -   Positional encoding: True
+2026-06-11 22:18:52,311 - INFO -   Time information: True
+2026-06-11 22:18:52,311 - INFO -   In-neighbors: True
+2026-06-11 22:18:52,312 - INFO -   Out-neighbors: True
+2026-06-11 22:18:52,312 - INFO -   Interaction frequency encoding: True (integrated into attention)
+2026-06-11 22:18:52,313 - INFO -   Common neighbor encoding: True (only historical count, integrated into attention)
+2026-06-11 22:18:52,313 - INFO -   Negative sampling: disabled
+2026-06-11 22:18:52,313 - INFO - ################################################################################
+2026-06-11 22:18:52,314 - INFO - 
+################################################################################
+2026-06-11 22:18:52,314 - INFO - Running experiment 1/5 - Random seed: 42
+2026-06-11 22:18:52,315 - INFO - ################################################################################
+2026-06-11 22:18:52,315 - INFO - 
+============================================================
+2026-06-11 22:18:52,315 - INFO - Running experiment (no negative sampling) - Random seed: 42
+2026-06-11 22:18:52,316 - INFO - ============================================================
+2026-06-11 22:18:53,712 - INFO - 
+=== LAGNN Experiment (No Negative Sampling) - Random Seed: 42 ===
+2026-06-11 22:18:53,713 - INFO - Device: cuda
+2026-06-11 22:18:53,713 - INFO - Total nodes: 1899
+2026-06-11 22:18:53,713 - INFO - Train edges: 47868, Val edges: 5983, Test edges: 5984
+2026-06-11 22:18:53,714 - INFO - Positional encoding: True
+2026-06-11 22:18:53,714 - INFO - Time information: True
+2026-06-11 22:18:53,715 - INFO - In-neighbors: True
+2026-06-11 22:18:53,715 - INFO - Out-neighbors: True
+2026-06-11 22:18:53,715 - INFO - Interaction frequency encoding: True (integrated into attention)
+2026-06-11 22:18:53,715 - INFO - Common neighbor encoding: True (only historical count, integrated into attention)
+2026-06-11 22:19:14,654 - INFO - Epoch 1 | Loss: 0.6432 | Val MRR: 0.0111 | HITS@10: 0.0236
+2026-06-11 22:19:14,663 - INFO - Model improved, best val MRR: 0.0111, saved to best_model_seed_42.pth
+2026-06-11 22:19:34,537 - INFO - Epoch 2 | Loss: 0.5816 | Val MRR: 0.1292 | HITS@10: 0.1932
+2026-06-11 22:19:34,546 - INFO - Model improved, best val MRR: 0.1292, saved to best_model_seed_42.pth
+2026-06-11 22:19:54,230 - INFO - Epoch 3 | Loss: 0.4930 | Val MRR: 0.3147 | HITS@10: 0.4170
+2026-06-11 22:19:54,240 - INFO - Model improved, best val MRR: 0.3147, saved to best_model_seed_42.pth
+2026-06-11 22:20:13,649 - INFO - Epoch 4 | Loss: 0.4456 | Val MRR: 0.4081 | HITS@10: 0.4847
+2026-06-11 22:20:13,657 - INFO - Model improved, best val MRR: 0.4081, saved to best_model_seed_42.pth
+2026-06-11 22:20:32,924 - INFO - Epoch 5 | Loss: 0.4193 | Val MRR: 0.4481 | HITS@10: 0.5176
+2026-06-11 22:20:32,932 - INFO - Model improved, best val MRR: 0.4481, saved to best_model_seed_42.pth
+2026-06-11 22:20:52,541 - INFO - Epoch 6 | Loss: 0.4020 | Val MRR: 0.4639 | HITS@10: 0.5287
+2026-06-11 22:20:52,550 - INFO - Model improved, best val MRR: 0.4639, saved to best_model_seed_42.pth
+2026-06-11 22:21:11,807 - INFO - Epoch 7 | Loss: 0.3881 | Val MRR: 0.4780 | HITS@10: 0.5462
+2026-06-11 22:21:11,816 - INFO - Model improved, best val MRR: 0.4780, saved to best_model_seed_42.pth
+2026-06-11 22:21:31,235 - INFO - Epoch 8 | Loss: 0.3769 | Val MRR: 0.4828 | HITS@10: 0.5516
+2026-06-11 22:21:31,244 - INFO - Model improved, best val MRR: 0.4828, saved to best_model_seed_42.pth
+2026-06-11 22:21:51,112 - INFO - Epoch 9 | Loss: 0.3679 | Val MRR: 0.4924 | HITS@10: 0.5644
+2026-06-11 22:21:51,120 - INFO - Model improved, best val MRR: 0.4924, saved to best_model_seed_42.pth
+2026-06-11 22:22:10,937 - INFO - Epoch 10 | Loss: 0.3606 | Val MRR: 0.4996 | HITS@10: 0.5730
+2026-06-11 22:22:10,946 - INFO - Model improved, best val MRR: 0.4996, saved to best_model_seed_42.pth
+2026-06-11 22:22:31,286 - INFO - Epoch 11 | Loss: 0.3546 | Val MRR: 0.5035 | HITS@10: 0.5795
+2026-06-11 22:22:31,295 - INFO - Model improved, best val MRR: 0.5035, saved to best_model_seed_42.pth
+2026-06-11 22:22:51,753 - INFO - Epoch 12 | Loss: 0.3483 | Val MRR: 0.5062 | HITS@10: 0.5847
+2026-06-11 22:22:51,762 - INFO - Model improved, best val MRR: 0.5062, saved to best_model_seed_42.pth
+2026-06-11 22:23:11,870 - INFO - Epoch 13 | Loss: 0.3433 | Val MRR: 0.5072 | HITS@10: 0.5827
+2026-06-11 22:23:11,879 - INFO - Model improved, best val MRR: 0.5072, saved to best_model_seed_42.pth
+2026-06-11 22:23:31,966 - INFO - Epoch 14 | Loss: 0.3387 | Val MRR: 0.5118 | HITS@10: 0.5895
+2026-06-11 22:23:31,976 - INFO - Model improved, best val MRR: 0.5118, saved to best_model_seed_42.pth
+2026-06-11 22:23:51,650 - INFO - Epoch 15 | Loss: 0.3341 | Val MRR: 0.5124 | HITS@10: 0.5902
+2026-06-11 22:23:51,659 - INFO - Model improved, best val MRR: 0.5124, saved to best_model_seed_42.pth
+2026-06-11 22:24:11,300 - INFO - Epoch 16 | Loss: 0.3302 | Val MRR: 0.5163 | HITS@10: 0.5942
+2026-06-11 22:24:11,309 - INFO - Model improved, best val MRR: 0.5163, saved to best_model_seed_42.pth
+2026-06-11 22:24:30,750 - INFO - Epoch 17 | Loss: 0.3266 | Val MRR: 0.5178 | HITS@10: 0.5990
+2026-06-11 22:24:30,758 - INFO - Model improved, best val MRR: 0.5178, saved to best_model_seed_42.pth
+2026-06-11 22:24:50,517 - INFO - Epoch 18 | Loss: 0.3232 | Val MRR: 0.5192 | HITS@10: 0.6012
+2026-06-11 22:24:50,525 - INFO - Model improved, best val MRR: 0.5192, saved to best_model_seed_42.pth
+2026-06-11 22:25:09,719 - INFO - Epoch 19 | Loss: 0.3199 | Val MRR: 0.5199 | HITS@10: 0.6022
+2026-06-11 22:25:09,728 - INFO - Model improved, best val MRR: 0.5199, saved to best_model_seed_42.pth
+2026-06-11 22:25:28,868 - INFO - Epoch 20 | Loss: 0.3171 | Val MRR: 0.5226 | HITS@10: 0.6050
+2026-06-11 22:25:28,876 - INFO - Model improved, best val MRR: 0.5226, saved to best_model_seed_42.pth
+2026-06-11 22:25:48,452 - INFO - Epoch 21 | Loss: 0.3144 | Val MRR: 0.5193 | HITS@10: 0.6037
+2026-06-11 22:26:08,067 - INFO - Epoch 22 | Loss: 0.3119 | Val MRR: 0.5224 | HITS@10: 0.6050
+2026-06-11 22:26:27,480 - INFO - Epoch 23 | Loss: 0.3090 | Val MRR: 0.5187 | HITS@10: 0.6030
+2026-06-11 22:26:47,129 - INFO - Epoch 24 | Loss: 0.3065 | Val MRR: 0.5223 | HITS@10: 0.6049
+2026-06-11 22:27:06,548 - INFO - Epoch 25 | Loss: 0.3043 | Val MRR: 0.5235 | HITS@10: 0.6047
+2026-06-11 22:27:06,557 - INFO - Model improved, best val MRR: 0.5235, saved to best_model_seed_42.pth
+2026-06-11 22:27:26,061 - INFO - Epoch 26 | Loss: 0.3017 | Val MRR: 0.5250 | HITS@10: 0.6069
+2026-06-11 22:27:26,070 - INFO - Model improved, best val MRR: 0.5250, saved to best_model_seed_42.pth
+2026-06-11 22:27:46,103 - INFO - Epoch 27 | Loss: 0.3006 | Val MRR: 0.5252 | HITS@10: 0.6089
+2026-06-11 22:27:46,111 - INFO - Model improved, best val MRR: 0.5252, saved to best_model_seed_42.pth
+2026-06-11 22:28:06,155 - INFO - Epoch 28 | Loss: 0.2980 | Val MRR: 0.5254 | HITS@10: 0.6096
+2026-06-11 22:28:06,164 - INFO - Model improved, best val MRR: 0.5254, saved to best_model_seed_42.pth
+2026-06-11 22:28:25,936 - INFO - Epoch 29 | Loss: 0.2957 | Val MRR: 0.5293 | HITS@10: 0.6142
+2026-06-11 22:28:25,945 - INFO - Model improved, best val MRR: 0.5293, saved to best_model_seed_42.pth
+2026-06-11 22:28:45,976 - INFO - Epoch 30 | Loss: 0.2941 | Val MRR: 0.5272 | HITS@10: 0.6124
+2026-06-11 22:29:06,230 - INFO - Epoch 31 | Loss: 0.2926 | Val MRR: 0.5299 | HITS@10: 0.6139
+2026-06-11 22:29:06,239 - INFO - Model improved, best val MRR: 0.5299, saved to best_model_seed_42.pth
+2026-06-11 22:29:26,770 - INFO - Epoch 32 | Loss: 0.2906 | Val MRR: 0.5286 | HITS@10: 0.6139
+2026-06-11 22:29:46,393 - INFO - Epoch 33 | Loss: 0.2885 | Val MRR: 0.5269 | HITS@10: 0.6126
+2026-06-11 22:30:05,857 - INFO - Epoch 34 | Loss: 0.2873 | Val MRR: 0.5288 | HITS@10: 0.6166
+2026-06-11 22:30:25,172 - INFO - Epoch 35 | Loss: 0.2853 | Val MRR: 0.5301 | HITS@10: 0.6156
+2026-06-11 22:30:25,180 - INFO - Model improved, best val MRR: 0.5301, saved to best_model_seed_42.pth
+2026-06-11 22:30:44,725 - INFO - Epoch 36 | Loss: 0.2837 | Val MRR: 0.5292 | HITS@10: 0.6149
+2026-06-11 22:31:03,921 - INFO - Epoch 37 | Loss: 0.2819 | Val MRR: 0.5314 | HITS@10: 0.6154
+2026-06-11 22:31:03,930 - INFO - Model improved, best val MRR: 0.5314, saved to best_model_seed_42.pth
+2026-06-11 22:31:23,067 - INFO - Epoch 38 | Loss: 0.2802 | Val MRR: 0.5295 | HITS@10: 0.6137
+2026-06-11 22:31:42,716 - INFO - Epoch 39 | Loss: 0.2788 | Val MRR: 0.5294 | HITS@10: 0.6152
+2026-06-11 22:32:14,629 - INFO - Epoch 40 | Loss: 0.2775 | Val MRR: 0.5304 | HITS@10: 0.6154
+2026-06-11 22:32:58,689 - INFO - Epoch 41 | Loss: 0.2752 | Val MRR: 0.5301 | HITS@10: 0.6157
+2026-06-11 22:33:46,099 - INFO - Epoch 42 | Loss: 0.2743 | Val MRR: 0.5286 | HITS@10: 0.6129
+2026-06-11 22:33:46,100 - INFO - Early stopping after 5 epochs without improvement.
+2026-06-11 22:34:26,892 - INFO - 
+Feature statistics (test set):
+2026-06-11 22:34:26,892 - INFO -   Interaction count:
+2026-06-11 22:34:26,893 - INFO -     Mean: 0.25
+2026-06-11 22:34:26,895 - INFO -     Median: 0.11
+2026-06-11 22:34:26,896 - INFO -     Max: 1.00
+2026-06-11 22:34:26,898 - INFO -     Min: 0.01
+2026-06-11 22:34:26,898 - INFO -   Common neighbor count (historical):
+2026-06-11 22:34:26,900 - INFO -     Mean: 0.03
+2026-06-11 22:34:26,901 - INFO -     Median: 0.01
+2026-06-11 22:34:26,902 - INFO -     Max: 0.70
+2026-06-11 22:34:26,904 - INFO -     Min: 0.00
+2026-06-11 22:34:26,905 - INFO -     Zero common neighbor ratio: 37.67%
+2026-06-11 22:34:26,907 - INFO - 
+Seed 42 test results (no negative sampling):
+2026-06-11 22:34:26,908 - INFO - Test MRR: 0.5699
+2026-06-11 22:34:26,910 - INFO - Test HITS@10: 0.6539
+2026-06-11 22:34:26,912 - INFO - Test HITS@20: 0.6698
+2026-06-11 22:34:26,972 - INFO - 
+################################################################################
+2026-06-11 22:34:26,973 - INFO - Running experiment 2/5 - Random seed: 43
+2026-06-11 22:34:26,974 - INFO - ################################################################################
+2026-06-11 22:34:26,974 - INFO - 
+============================================================
+2026-06-11 22:34:26,975 - INFO - Running experiment (no negative sampling) - Random seed: 43
+2026-06-11 22:34:26,977 - INFO - ============================================================
+2026-06-11 22:34:29,664 - INFO - 
+=== LAGNN Experiment (No Negative Sampling) - Random Seed: 43 ===
+2026-06-11 22:34:29,664 - INFO - Device: cuda
+2026-06-11 22:34:29,665 - INFO - Total nodes: 1899
+2026-06-11 22:34:29,666 - INFO - Train edges: 47868, Val edges: 5983, Test edges: 5984
+2026-06-11 22:34:29,667 - INFO - Positional encoding: True
+2026-06-11 22:34:29,669 - INFO - Time information: True
+2026-06-11 22:34:29,670 - INFO - In-neighbors: True
+2026-06-11 22:34:29,671 - INFO - Out-neighbors: True
+2026-06-11 22:34:29,672 - INFO - Interaction frequency encoding: True (integrated into attention)
+2026-06-11 22:34:29,673 - INFO - Common neighbor encoding: True (only historical count, integrated into attention)
+2026-06-11 22:35:20,196 - INFO - Epoch 1 | Loss: 0.6427 | Val MRR: 0.0070 | HITS@10: 0.0084
+2026-06-11 22:35:20,204 - INFO - Model improved, best val MRR: 0.0070, saved to best_model_seed_43.pth
+2026-06-11 22:35:47,160 - INFO - Epoch 2 | Loss: 0.5781 | Val MRR: 0.1339 | HITS@10: 0.2141
+2026-06-11 22:35:47,176 - INFO - Model improved, best val MRR: 0.1339, saved to best_model_seed_43.pth
+2026-06-11 22:36:35,267 - INFO - Epoch 3 | Loss: 0.4931 | Val MRR: 0.3538 | HITS@10: 0.4419
+2026-06-11 22:36:35,278 - INFO - Model improved, best val MRR: 0.3538, saved to best_model_seed_43.pth
+2026-06-11 22:37:22,631 - INFO - Epoch 4 | Loss: 0.4491 | Val MRR: 0.4216 | HITS@10: 0.4917
+2026-06-11 22:37:22,647 - INFO - Model improved, best val MRR: 0.4216, saved to best_model_seed_43.pth
+2026-06-11 22:38:01,840 - INFO - Epoch 5 | Loss: 0.4222 | Val MRR: 0.4575 | HITS@10: 0.5283
+2026-06-11 22:38:01,849 - INFO - Model improved, best val MRR: 0.4575, saved to best_model_seed_43.pth
+2026-06-11 22:38:21,151 - INFO - Epoch 6 | Loss: 0.4056 | Val MRR: 0.4690 | HITS@10: 0.5417
+2026-06-11 22:38:21,160 - INFO - Model improved, best val MRR: 0.4690, saved to best_model_seed_43.pth
+2026-06-11 22:38:41,490 - INFO - Epoch 7 | Loss: 0.3928 | Val MRR: 0.4870 | HITS@10: 0.5609
+2026-06-11 22:38:41,498 - INFO - Model improved, best val MRR: 0.4870, saved to best_model_seed_43.pth
+2026-06-11 22:39:01,357 - INFO - Epoch 8 | Loss: 0.3814 | Val MRR: 0.4951 | HITS@10: 0.5701
+2026-06-11 22:39:01,366 - INFO - Model improved, best val MRR: 0.4951, saved to best_model_seed_43.pth
+2026-06-11 22:39:21,110 - INFO - Epoch 9 | Loss: 0.3729 | Val MRR: 0.5019 | HITS@10: 0.5733
+2026-06-11 22:39:21,119 - INFO - Model improved, best val MRR: 0.5019, saved to best_model_seed_43.pth
+2026-06-11 22:39:41,393 - INFO - Epoch 10 | Loss: 0.3649 | Val MRR: 0.5084 | HITS@10: 0.5823
+2026-06-11 22:39:41,403 - INFO - Model improved, best val MRR: 0.5084, saved to best_model_seed_43.pth
+2026-06-11 22:40:01,504 - INFO - Epoch 11 | Loss: 0.3592 | Val MRR: 0.5094 | HITS@10: 0.5863
+2026-06-11 22:40:01,512 - INFO - Model improved, best val MRR: 0.5094, saved to best_model_seed_43.pth
+2026-06-11 22:40:21,151 - INFO - Epoch 12 | Loss: 0.3537 | Val MRR: 0.5109 | HITS@10: 0.5887
+2026-06-11 22:40:21,159 - INFO - Model improved, best val MRR: 0.5109, saved to best_model_seed_43.pth
+2026-06-11 22:40:41,023 - INFO - Epoch 13 | Loss: 0.3480 | Val MRR: 0.5123 | HITS@10: 0.5910
+2026-06-11 22:40:41,032 - INFO - Model improved, best val MRR: 0.5123, saved to best_model_seed_43.pth
+2026-06-11 22:41:01,330 - INFO - Epoch 14 | Loss: 0.3435 | Val MRR: 0.5159 | HITS@10: 0.5910
+2026-06-11 22:41:01,339 - INFO - Model improved, best val MRR: 0.5159, saved to best_model_seed_43.pth
+2026-06-11 22:41:21,370 - INFO - Epoch 15 | Loss: 0.3393 | Val MRR: 0.5148 | HITS@10: 0.5944
+2026-06-11 22:41:41,653 - INFO - Epoch 16 | Loss: 0.3353 | Val MRR: 0.5183 | HITS@10: 0.5977
+2026-06-11 22:41:41,663 - INFO - Model improved, best val MRR: 0.5183, saved to best_model_seed_43.pth
+2026-06-11 22:42:01,118 - INFO - Epoch 17 | Loss: 0.3319 | Val MRR: 0.5206 | HITS@10: 0.6009
+2026-06-11 22:42:01,127 - INFO - Model improved, best val MRR: 0.5206, saved to best_model_seed_43.pth
+2026-06-11 22:42:20,625 - INFO - Epoch 18 | Loss: 0.3284 | Val MRR: 0.5212 | HITS@10: 0.5995
+2026-06-11 22:42:20,633 - INFO - Model improved, best val MRR: 0.5212, saved to best_model_seed_43.pth
+2026-06-11 22:42:40,315 - INFO - Epoch 19 | Loss: 0.3249 | Val MRR: 0.5238 | HITS@10: 0.6029
+2026-06-11 22:42:40,324 - INFO - Model improved, best val MRR: 0.5238, saved to best_model_seed_43.pth
+2026-06-11 22:42:59,325 - INFO - Epoch 20 | Loss: 0.3219 | Val MRR: 0.5272 | HITS@10: 0.6062
+2026-06-11 22:42:59,333 - INFO - Model improved, best val MRR: 0.5272, saved to best_model_seed_43.pth
+2026-06-11 22:43:18,359 - INFO - Epoch 21 | Loss: 0.3189 | Val MRR: 0.5214 | HITS@10: 0.6032
+2026-06-11 22:43:37,478 - INFO - Epoch 22 | Loss: 0.3162 | Val MRR: 0.5249 | HITS@10: 0.6040
+2026-06-11 22:43:56,932 - INFO - Epoch 23 | Loss: 0.3130 | Val MRR: 0.5265 | HITS@10: 0.6074
+2026-06-11 22:44:16,539 - INFO - Epoch 24 | Loss: 0.3106 | Val MRR: 0.5286 | HITS@10: 0.6069
+2026-06-11 22:44:16,547 - INFO - Model improved, best val MRR: 0.5286, saved to best_model_seed_43.pth
+2026-06-11 22:44:35,825 - INFO - Epoch 25 | Loss: 0.3083 | Val MRR: 0.5263 | HITS@10: 0.6072
+2026-06-11 22:44:55,238 - INFO - Epoch 26 | Loss: 0.3064 | Val MRR: 0.5305 | HITS@10: 0.6107
+2026-06-11 22:44:55,247 - INFO - Model improved, best val MRR: 0.5305, saved to best_model_seed_43.pth
+2026-06-11 22:45:14,725 - INFO - Epoch 27 | Loss: 0.3039 | Val MRR: 0.5291 | HITS@10: 0.6091
+2026-06-11 22:45:34,513 - INFO - Epoch 28 | Loss: 0.3016 | Val MRR: 0.5279 | HITS@10: 0.6112
+2026-06-11 22:45:54,482 - INFO - Epoch 29 | Loss: 0.2997 | Val MRR: 0.5267 | HITS@10: 0.6104
+2026-06-11 22:46:14,242 - INFO - Epoch 30 | Loss: 0.2977 | Val MRR: 0.5295 | HITS@10: 0.6097
+2026-06-11 22:46:33,972 - INFO - Epoch 31 | Loss: 0.2955 | Val MRR: 0.5308 | HITS@10: 0.6114
+2026-06-11 22:46:33,981 - INFO - Model improved, best val MRR: 0.5308, saved to best_model_seed_43.pth
+2026-06-11 22:46:53,997 - INFO - Epoch 32 | Loss: 0.2934 | Val MRR: 0.5275 | HITS@10: 0.6119
+2026-06-11 22:47:14,313 - INFO - Epoch 33 | Loss: 0.2916 | Val MRR: 0.5315 | HITS@10: 0.6127
+2026-06-11 22:47:14,322 - INFO - Model improved, best val MRR: 0.5315, saved to best_model_seed_43.pth
+2026-06-11 22:47:34,374 - INFO - Epoch 34 | Loss: 0.2894 | Val MRR: 0.5326 | HITS@10: 0.6142
+2026-06-11 22:47:34,382 - INFO - Model improved, best val MRR: 0.5326, saved to best_model_seed_43.pth
+2026-06-11 22:47:54,009 - INFO - Epoch 35 | Loss: 0.2878 | Val MRR: 0.5288 | HITS@10: 0.6147
+2026-06-11 22:48:13,492 - INFO - Epoch 36 | Loss: 0.2864 | Val MRR: 0.5298 | HITS@10: 0.6141
+2026-06-11 22:48:33,008 - INFO - Epoch 37 | Loss: 0.2849 | Val MRR: 0.5315 | HITS@10: 0.6131
+2026-06-11 22:48:52,697 - INFO - Epoch 38 | Loss: 0.2824 | Val MRR: 0.5332 | HITS@10: 0.6147
+2026-06-11 22:48:52,706 - INFO - Model improved, best val MRR: 0.5332, saved to best_model_seed_43.pth
+2026-06-11 22:49:12,297 - INFO - Epoch 39 | Loss: 0.2804 | Val MRR: 0.5327 | HITS@10: 0.6159
+2026-06-11 22:49:31,850 - INFO - Epoch 40 | Loss: 0.2799 | Val MRR: 0.5296 | HITS@10: 0.6136
+2026-06-11 22:49:51,486 - INFO - Epoch 41 | Loss: 0.2778 | Val MRR: 0.5303 | HITS@10: 0.6149
+2026-06-11 22:50:10,944 - INFO - Epoch 42 | Loss: 0.2758 | Val MRR: 0.5334 | HITS@10: 0.6178
+2026-06-11 22:50:10,952 - INFO - Model improved, best val MRR: 0.5334, saved to best_model_seed_43.pth
+2026-06-11 22:50:30,560 - INFO - Epoch 43 | Loss: 0.2744 | Val MRR: 0.5354 | HITS@10: 0.6178
+2026-06-11 22:50:30,569 - INFO - Model improved, best val MRR: 0.5354, saved to best_model_seed_43.pth
+2026-06-11 22:50:50,194 - INFO - Epoch 44 | Loss: 0.2729 | Val MRR: 0.5312 | HITS@10: 0.6151
+2026-06-11 22:51:09,532 - INFO - Epoch 45 | Loss: 0.2711 | Val MRR: 0.5316 | HITS@10: 0.6161
+2026-06-11 22:51:29,162 - INFO - Epoch 46 | Loss: 0.2693 | Val MRR: 0.5321 | HITS@10: 0.6169
+2026-06-11 22:51:49,102 - INFO - Epoch 47 | Loss: 0.2692 | Val MRR: 0.5317 | HITS@10: 0.6151
+2026-06-11 22:52:08,966 - INFO - Epoch 48 | Loss: 0.2673 | Val MRR: 0.5333 | HITS@10: 0.6151
+2026-06-11 22:52:08,966 - INFO - Early stopping after 5 epochs without improvement.
+2026-06-11 22:52:25,918 - INFO - 
+Feature statistics (test set):
+2026-06-11 22:52:25,919 - INFO -   Interaction count:
+2026-06-11 22:52:25,919 - INFO -     Mean: 0.25
+2026-06-11 22:52:25,920 - INFO -     Median: 0.11
+2026-06-11 22:52:25,921 - INFO -     Max: 1.00
+2026-06-11 22:52:25,921 - INFO -     Min: 0.01
+2026-06-11 22:52:25,921 - INFO -   Common neighbor count (historical):
+2026-06-11 22:52:25,922 - INFO -     Mean: 0.03
+2026-06-11 22:52:25,923 - INFO -     Median: 0.01
+2026-06-11 22:52:25,923 - INFO -     Max: 0.70
+2026-06-11 22:52:25,923 - INFO -     Min: 0.00
+2026-06-11 22:52:25,924 - INFO -     Zero common neighbor ratio: 37.67%
+2026-06-11 22:52:25,924 - INFO - 
+Seed 43 test results (no negative sampling):
+2026-06-11 22:52:25,924 - INFO - Test MRR: 0.5701
+2026-06-11 22:52:25,925 - INFO - Test HITS@10: 0.6504
+2026-06-11 22:52:25,925 - INFO - Test HITS@20: 0.6663
+2026-06-11 22:52:25,954 - INFO - 
+################################################################################
+2026-06-11 22:52:25,954 - INFO - Running experiment 3/5 - Random seed: 44
+2026-06-11 22:52:25,955 - INFO - ################################################################################
+2026-06-11 22:52:25,955 - INFO - 
+============================================================
+2026-06-11 22:52:25,956 - INFO - Running experiment (no negative sampling) - Random seed: 44
+2026-06-11 22:52:25,956 - INFO - ============================================================
+2026-06-11 22:52:27,409 - INFO - 
+=== LAGNN Experiment (No Negative Sampling) - Random Seed: 44 ===
+2026-06-11 22:52:27,410 - INFO - Device: cuda
+2026-06-11 22:52:27,410 - INFO - Total nodes: 1899
+2026-06-11 22:52:27,411 - INFO - Train edges: 47868, Val edges: 5983, Test edges: 5984
+2026-06-11 22:52:27,411 - INFO - Positional encoding: True
+2026-06-11 22:52:27,412 - INFO - Time information: True
+2026-06-11 22:52:27,412 - INFO - In-neighbors: True
+2026-06-11 22:52:27,412 - INFO - Out-neighbors: True
+2026-06-11 22:52:27,413 - INFO - Interaction frequency encoding: True (integrated into attention)
+2026-06-11 22:52:27,413 - INFO - Common neighbor encoding: True (only historical count, integrated into attention)
+2026-06-11 22:52:49,622 - INFO - Epoch 1 | Loss: 0.6542 | Val MRR: 0.0097 | HITS@10: 0.0127
+2026-06-11 22:52:49,631 - INFO - Model improved, best val MRR: 0.0097, saved to best_model_seed_44.pth
+2026-06-11 22:53:09,630 - INFO - Epoch 2 | Loss: 0.5809 | Val MRR: 0.1358 | HITS@10: 0.2143
+2026-06-11 22:53:09,639 - INFO - Model improved, best val MRR: 0.1358, saved to best_model_seed_44.pth
+2026-06-11 22:53:29,730 - INFO - Epoch 3 | Loss: 0.4929 | Val MRR: 0.3435 | HITS@10: 0.4307
+2026-06-11 22:53:29,738 - INFO - Model improved, best val MRR: 0.3435, saved to best_model_seed_44.pth
+2026-06-11 22:53:49,333 - INFO - Epoch 4 | Loss: 0.4457 | Val MRR: 0.4176 | HITS@10: 0.4904
+2026-06-11 22:53:49,341 - INFO - Model improved, best val MRR: 0.4176, saved to best_model_seed_44.pth
+2026-06-11 22:54:08,949 - INFO - Epoch 5 | Loss: 0.4195 | Val MRR: 0.4415 | HITS@10: 0.5131
+2026-06-11 22:54:08,958 - INFO - Model improved, best val MRR: 0.4415, saved to best_model_seed_44.pth
+2026-06-11 22:54:28,439 - INFO - Epoch 6 | Loss: 0.4021 | Val MRR: 0.4680 | HITS@10: 0.5343
+2026-06-11 22:54:28,447 - INFO - Model improved, best val MRR: 0.4680, saved to best_model_seed_44.pth
+2026-06-11 22:54:48,055 - INFO - Epoch 7 | Loss: 0.3883 | Val MRR: 0.4762 | HITS@10: 0.5449
+2026-06-11 22:54:48,063 - INFO - Model improved, best val MRR: 0.4762, saved to best_model_seed_44.pth
+2026-06-11 22:55:07,145 - INFO - Epoch 8 | Loss: 0.3777 | Val MRR: 0.4887 | HITS@10: 0.5608
+2026-06-11 22:55:07,153 - INFO - Model improved, best val MRR: 0.4887, saved to best_model_seed_44.pth
+2026-06-11 22:55:26,263 - INFO - Epoch 9 | Loss: 0.3694 | Val MRR: 0.4933 | HITS@10: 0.5643
+2026-06-11 22:55:26,271 - INFO - Model improved, best val MRR: 0.4933, saved to best_model_seed_44.pth
+2026-06-11 22:55:45,962 - INFO - Epoch 10 | Loss: 0.3621 | Val MRR: 0.4954 | HITS@10: 0.5658
+2026-06-11 22:55:45,971 - INFO - Model improved, best val MRR: 0.4954, saved to best_model_seed_44.pth
+2026-06-11 22:56:05,630 - INFO - Epoch 11 | Loss: 0.3556 | Val MRR: 0.5014 | HITS@10: 0.5761
+2026-06-11 22:56:05,639 - INFO - Model improved, best val MRR: 0.5014, saved to best_model_seed_44.pth
+2026-06-11 22:56:24,952 - INFO - Epoch 12 | Loss: 0.3503 | Val MRR: 0.5034 | HITS@10: 0.5801
+2026-06-11 22:56:24,961 - INFO - Model improved, best val MRR: 0.5034, saved to best_model_seed_44.pth
+2026-06-11 22:56:44,647 - INFO - Epoch 13 | Loss: 0.3452 | Val MRR: 0.5049 | HITS@10: 0.5806
+2026-06-11 22:56:44,656 - INFO - Model improved, best val MRR: 0.5049, saved to best_model_seed_44.pth
+2026-06-11 22:57:04,169 - INFO - Epoch 14 | Loss: 0.3403 | Val MRR: 0.5105 | HITS@10: 0.5860
+2026-06-11 22:57:04,177 - INFO - Model improved, best val MRR: 0.5105, saved to best_model_seed_44.pth
+2026-06-11 22:57:23,539 - INFO - Epoch 15 | Loss: 0.3363 | Val MRR: 0.5122 | HITS@10: 0.5930
+2026-06-11 22:57:23,548 - INFO - Model improved, best val MRR: 0.5122, saved to best_model_seed_44.pth
+2026-06-11 22:57:43,553 - INFO - Epoch 16 | Loss: 0.3318 | Val MRR: 0.5132 | HITS@10: 0.5917
+2026-06-11 22:57:43,562 - INFO - Model improved, best val MRR: 0.5132, saved to best_model_seed_44.pth
+2026-06-11 22:58:03,573 - INFO - Epoch 17 | Loss: 0.3287 | Val MRR: 0.5159 | HITS@10: 0.5967
+2026-06-11 22:58:03,581 - INFO - Model improved, best val MRR: 0.5159, saved to best_model_seed_44.pth
+2026-06-11 22:58:23,434 - INFO - Epoch 18 | Loss: 0.3256 | Val MRR: 0.5157 | HITS@10: 0.5954
+2026-06-11 22:58:43,359 - INFO - Epoch 19 | Loss: 0.3220 | Val MRR: 0.5168 | HITS@10: 0.5969
+2026-06-11 22:58:43,368 - INFO - Model improved, best val MRR: 0.5168, saved to best_model_seed_44.pth
+2026-06-11 22:59:03,468 - INFO - Epoch 20 | Loss: 0.3193 | Val MRR: 0.5166 | HITS@10: 0.6000
+2026-06-11 22:59:23,206 - INFO - Epoch 21 | Loss: 0.3170 | Val MRR: 0.5194 | HITS@10: 0.6010
+2026-06-11 22:59:23,215 - INFO - Model improved, best val MRR: 0.5194, saved to best_model_seed_44.pth
+2026-06-11 22:59:42,952 - INFO - Epoch 22 | Loss: 0.3138 | Val MRR: 0.5182 | HITS@10: 0.6019
+2026-06-11 23:00:02,614 - INFO - Epoch 23 | Loss: 0.3114 | Val MRR: 0.5212 | HITS@10: 0.6037
+2026-06-11 23:00:02,622 - INFO - Model improved, best val MRR: 0.5212, saved to best_model_seed_44.pth
+2026-06-11 23:00:22,190 - INFO - Epoch 24 | Loss: 0.3096 | Val MRR: 0.5202 | HITS@10: 0.6007
+2026-06-11 23:00:41,637 - INFO - Epoch 25 | Loss: 0.3063 | Val MRR: 0.5223 | HITS@10: 0.6010
+2026-06-11 23:00:41,645 - INFO - Model improved, best val MRR: 0.5223, saved to best_model_seed_44.pth
+2026-06-11 23:01:00,608 - INFO - Epoch 26 | Loss: 0.3040 | Val MRR: 0.5219 | HITS@10: 0.6062
+2026-06-11 23:01:19,706 - INFO - Epoch 27 | Loss: 0.3018 | Val MRR: 0.5221 | HITS@10: 0.6032
+2026-06-11 23:01:38,950 - INFO - Epoch 28 | Loss: 0.3003 | Val MRR: 0.5222 | HITS@10: 0.6042
+2026-06-11 23:01:58,289 - INFO - Epoch 29 | Loss: 0.2979 | Val MRR: 0.5212 | HITS@10: 0.6039
+2026-06-11 23:02:18,108 - INFO - Epoch 30 | Loss: 0.2955 | Val MRR: 0.5234 | HITS@10: 0.6052
+2026-06-11 23:02:18,116 - INFO - Model improved, best val MRR: 0.5234, saved to best_model_seed_44.pth
+2026-06-11 23:02:37,730 - INFO - Epoch 31 | Loss: 0.2939 | Val MRR: 0.5260 | HITS@10: 0.6102
+2026-06-11 23:02:37,739 - INFO - Model improved, best val MRR: 0.5260, saved to best_model_seed_44.pth
+2026-06-11 23:02:57,174 - INFO - Epoch 32 | Loss: 0.2925 | Val MRR: 0.5243 | HITS@10: 0.6081
+2026-06-11 23:03:16,606 - INFO - Epoch 33 | Loss: 0.2909 | Val MRR: 0.5224 | HITS@10: 0.6052
+2026-06-11 23:03:36,114 - INFO - Epoch 34 | Loss: 0.2887 | Val MRR: 0.5246 | HITS@10: 0.6091
+2026-06-11 23:03:56,081 - INFO - Epoch 35 | Loss: 0.2876 | Val MRR: 0.5263 | HITS@10: 0.6054
+2026-06-11 23:03:56,090 - INFO - Model improved, best val MRR: 0.5263, saved to best_model_seed_44.pth
+2026-06-11 23:04:15,923 - INFO - Epoch 36 | Loss: 0.2853 | Val MRR: 0.5263 | HITS@10: 0.6091
+2026-06-11 23:04:35,697 - INFO - Epoch 37 | Loss: 0.2839 | Val MRR: 0.5286 | HITS@10: 0.6089
+2026-06-11 23:04:35,706 - INFO - Model improved, best val MRR: 0.5286, saved to best_model_seed_44.pth
+2026-06-11 23:04:55,687 - INFO - Epoch 38 | Loss: 0.2827 | Val MRR: 0.5255 | HITS@10: 0.6066
+2026-06-11 23:05:15,503 - INFO - Epoch 39 | Loss: 0.2808 | Val MRR: 0.5271 | HITS@10: 0.6047
+2026-06-11 23:05:35,628 - INFO - Epoch 40 | Loss: 0.2796 | Val MRR: 0.5239 | HITS@10: 0.6045
+2026-06-11 23:05:55,291 - INFO - Epoch 41 | Loss: 0.2780 | Val MRR: 0.5244 | HITS@10: 0.6064
+2026-06-11 23:06:14,944 - INFO - Epoch 42 | Loss: 0.2767 | Val MRR: 0.5268 | HITS@10: 0.6069
+2026-06-11 23:06:14,944 - INFO - Early stopping after 5 epochs without improvement.
+2026-06-11 23:06:31,597 - INFO - 
+Feature statistics (test set):
+2026-06-11 23:06:31,598 - INFO -   Interaction count:
+2026-06-11 23:06:31,599 - INFO -     Mean: 0.25
+2026-06-11 23:06:31,599 - INFO -     Median: 0.11
+2026-06-11 23:06:31,600 - INFO -     Max: 1.00
+2026-06-11 23:06:31,601 - INFO -     Min: 0.01
+2026-06-11 23:06:31,601 - INFO -   Common neighbor count (historical):
+2026-06-11 23:06:31,601 - INFO -     Mean: 0.03
+2026-06-11 23:06:31,602 - INFO -     Median: 0.01
+2026-06-11 23:06:31,602 - INFO -     Max: 0.70
+2026-06-11 23:06:31,603 - INFO -     Min: 0.00
+2026-06-11 23:06:31,604 - INFO -     Zero common neighbor ratio: 37.67%
+2026-06-11 23:06:31,604 - INFO - 
+Seed 44 test results (no negative sampling):
+2026-06-11 23:06:31,604 - INFO - Test MRR: 0.5574
+2026-06-11 23:06:31,605 - INFO - Test HITS@10: 0.6425
+2026-06-11 23:06:31,605 - INFO - Test HITS@20: 0.6628
+2026-06-11 23:06:31,634 - INFO - 
+################################################################################
+2026-06-11 23:06:31,634 - INFO - Running experiment 4/5 - Random seed: 45
+2026-06-11 23:06:31,634 - INFO - ################################################################################
+2026-06-11 23:06:31,635 - INFO - 
+============================================================
+2026-06-11 23:06:31,635 - INFO - Running experiment (no negative sampling) - Random seed: 45
+2026-06-11 23:06:31,635 - INFO - ============================================================
+2026-06-11 23:06:33,076 - INFO - 
+=== LAGNN Experiment (No Negative Sampling) - Random Seed: 45 ===
+2026-06-11 23:06:33,076 - INFO - Device: cuda
+2026-06-11 23:06:33,076 - INFO - Total nodes: 1899
+2026-06-11 23:06:33,077 - INFO - Train edges: 47868, Val edges: 5983, Test edges: 5984
+2026-06-11 23:06:33,077 - INFO - Positional encoding: True
+2026-06-11 23:06:33,078 - INFO - Time information: True
+2026-06-11 23:06:33,078 - INFO - In-neighbors: True
+2026-06-11 23:06:33,078 - INFO - Out-neighbors: True
+2026-06-11 23:06:33,079 - INFO - Interaction frequency encoding: True (integrated into attention)
+2026-06-11 23:06:33,079 - INFO - Common neighbor encoding: True (only historical count, integrated into attention)
+2026-06-11 23:06:54,411 - INFO - Epoch 1 | Loss: 0.6478 | Val MRR: 0.0121 | HITS@10: 0.0281
+2026-06-11 23:06:54,420 - INFO - Model improved, best val MRR: 0.0121, saved to best_model_seed_45.pth
+2026-06-11 23:07:13,490 - INFO - Epoch 2 | Loss: 0.5866 | Val MRR: 0.1417 | HITS@10: 0.2243
+2026-06-11 23:07:13,499 - INFO - Model improved, best val MRR: 0.1417, saved to best_model_seed_45.pth
+2026-06-11 23:07:32,586 - INFO - Epoch 3 | Loss: 0.4946 | Val MRR: 0.3563 | HITS@10: 0.4364
+2026-06-11 23:07:32,595 - INFO - Model improved, best val MRR: 0.3563, saved to best_model_seed_45.pth
+2026-06-11 23:07:52,319 - INFO - Epoch 4 | Loss: 0.4440 | Val MRR: 0.4337 | HITS@10: 0.5074
+2026-06-11 23:07:52,327 - INFO - Model improved, best val MRR: 0.4337, saved to best_model_seed_45.pth
+2026-06-11 23:08:11,603 - INFO - Epoch 5 | Loss: 0.4168 | Val MRR: 0.4635 | HITS@10: 0.5362
+2026-06-11 23:08:11,611 - INFO - Model improved, best val MRR: 0.4635, saved to best_model_seed_45.pth
+2026-06-11 23:08:31,145 - INFO - Epoch 6 | Loss: 0.3991 | Val MRR: 0.4843 | HITS@10: 0.5584
+2026-06-11 23:08:31,153 - INFO - Model improved, best val MRR: 0.4843, saved to best_model_seed_45.pth
+2026-06-11 23:08:50,927 - INFO - Epoch 7 | Loss: 0.3867 | Val MRR: 0.4908 | HITS@10: 0.5648
+2026-06-11 23:08:50,935 - INFO - Model improved, best val MRR: 0.4908, saved to best_model_seed_45.pth
+2026-06-11 23:09:10,390 - INFO - Epoch 8 | Loss: 0.3763 | Val MRR: 0.4943 | HITS@10: 0.5694
+2026-06-11 23:09:10,399 - INFO - Model improved, best val MRR: 0.4943, saved to best_model_seed_45.pth
+2026-06-11 23:09:29,778 - INFO - Epoch 9 | Loss: 0.3670 | Val MRR: 0.5059 | HITS@10: 0.5860
+2026-06-11 23:09:29,787 - INFO - Model improved, best val MRR: 0.5059, saved to best_model_seed_45.pth
+2026-06-11 23:09:49,845 - INFO - Epoch 10 | Loss: 0.3597 | Val MRR: 0.5081 | HITS@10: 0.5845
+2026-06-11 23:09:49,854 - INFO - Model improved, best val MRR: 0.5081, saved to best_model_seed_45.pth
+2026-06-11 23:10:09,760 - INFO - Epoch 11 | Loss: 0.3530 | Val MRR: 0.5113 | HITS@10: 0.5898
+2026-06-11 23:10:09,768 - INFO - Model improved, best val MRR: 0.5113, saved to best_model_seed_45.pth
+2026-06-11 23:10:29,638 - INFO - Epoch 12 | Loss: 0.3474 | Val MRR: 0.5177 | HITS@10: 0.5938
+2026-06-11 23:10:29,646 - INFO - Model improved, best val MRR: 0.5177, saved to best_model_seed_45.pth
+2026-06-11 23:10:50,067 - INFO - Epoch 13 | Loss: 0.3421 | Val MRR: 0.5173 | HITS@10: 0.5985
+2026-06-11 23:11:09,917 - INFO - Epoch 14 | Loss: 0.3375 | Val MRR: 0.5210 | HITS@10: 0.6017
+2026-06-11 23:11:09,925 - INFO - Model improved, best val MRR: 0.5210, saved to best_model_seed_45.pth
+2026-06-11 23:11:29,997 - INFO - Epoch 15 | Loss: 0.3338 | Val MRR: 0.5205 | HITS@10: 0.6027
+2026-06-11 23:11:49,617 - INFO - Epoch 16 | Loss: 0.3297 | Val MRR: 0.5244 | HITS@10: 0.6049
+2026-06-11 23:11:49,625 - INFO - Model improved, best val MRR: 0.5244, saved to best_model_seed_45.pth
+2026-06-11 23:12:09,198 - INFO - Epoch 17 | Loss: 0.3255 | Val MRR: 0.5249 | HITS@10: 0.6055
+2026-06-11 23:12:09,207 - INFO - Model improved, best val MRR: 0.5249, saved to best_model_seed_45.pth
+2026-06-11 23:12:28,661 - INFO - Epoch 18 | Loss: 0.3229 | Val MRR: 0.5305 | HITS@10: 0.6096
+2026-06-11 23:12:28,669 - INFO - Model improved, best val MRR: 0.5305, saved to best_model_seed_45.pth
+2026-06-11 23:12:48,146 - INFO - Epoch 19 | Loss: 0.3200 | Val MRR: 0.5287 | HITS@10: 0.6091
+2026-06-11 23:13:07,690 - INFO - Epoch 20 | Loss: 0.3164 | Val MRR: 0.5289 | HITS@10: 0.6114
+2026-06-11 23:13:26,900 - INFO - Epoch 21 | Loss: 0.3136 | Val MRR: 0.5249 | HITS@10: 0.6081
+2026-06-11 23:13:46,441 - INFO - Epoch 22 | Loss: 0.3114 | Val MRR: 0.5302 | HITS@10: 0.6111
+2026-06-11 23:14:06,150 - INFO - Epoch 23 | Loss: 0.3089 | Val MRR: 0.5344 | HITS@10: 0.6142
+2026-06-11 23:14:06,159 - INFO - Model improved, best val MRR: 0.5344, saved to best_model_seed_45.pth
+2026-06-11 23:14:25,640 - INFO - Epoch 24 | Loss: 0.3060 | Val MRR: 0.5301 | HITS@10: 0.6102
+2026-06-11 23:14:45,393 - INFO - Epoch 25 | Loss: 0.3037 | Val MRR: 0.5300 | HITS@10: 0.6104
+2026-06-11 23:15:04,796 - INFO - Epoch 26 | Loss: 0.3015 | Val MRR: 0.5323 | HITS@10: 0.6124
+2026-06-11 23:15:24,218 - INFO - Epoch 27 | Loss: 0.2989 | Val MRR: 0.5350 | HITS@10: 0.6156
+2026-06-11 23:15:24,226 - INFO - Model improved, best val MRR: 0.5350, saved to best_model_seed_45.pth
+2026-06-11 23:15:44,259 - INFO - Epoch 28 | Loss: 0.2973 | Val MRR: 0.5329 | HITS@10: 0.6131
+2026-06-11 23:16:04,216 - INFO - Epoch 29 | Loss: 0.2956 | Val MRR: 0.5344 | HITS@10: 0.6129
+2026-06-11 23:16:23,972 - INFO - Epoch 30 | Loss: 0.2932 | Val MRR: 0.5364 | HITS@10: 0.6162
+2026-06-11 23:16:23,980 - INFO - Model improved, best val MRR: 0.5364, saved to best_model_seed_45.pth
+2026-06-11 23:16:44,117 - INFO - Epoch 31 | Loss: 0.2919 | Val MRR: 0.5334 | HITS@10: 0.6166
+2026-06-11 23:17:04,469 - INFO - Epoch 32 | Loss: 0.2899 | Val MRR: 0.5343 | HITS@10: 0.6156
+2026-06-11 23:17:24,667 - INFO - Epoch 33 | Loss: 0.2878 | Val MRR: 0.5363 | HITS@10: 0.6157
+2026-06-11 23:17:44,359 - INFO - Epoch 34 | Loss: 0.2859 | Val MRR: 0.5340 | HITS@10: 0.6141
+2026-06-11 23:18:03,855 - INFO - Epoch 35 | Loss: 0.2844 | Val MRR: 0.5343 | HITS@10: 0.6157
+2026-06-11 23:18:03,855 - INFO - Early stopping after 5 epochs without improvement.
+2026-06-11 23:18:20,344 - INFO - 
+Feature statistics (test set):
+2026-06-11 23:18:20,344 - INFO -   Interaction count:
+2026-06-11 23:18:20,345 - INFO -     Mean: 0.25
+2026-06-11 23:18:20,346 - INFO -     Median: 0.11
+2026-06-11 23:18:20,346 - INFO -     Max: 1.00
+2026-06-11 23:18:20,347 - INFO -     Min: 0.01
+2026-06-11 23:18:20,347 - INFO -   Common neighbor count (historical):
+2026-06-11 23:18:20,348 - INFO -     Mean: 0.03
+2026-06-11 23:18:20,348 - INFO -     Median: 0.01
+2026-06-11 23:18:20,349 - INFO -     Max: 0.70
+2026-06-11 23:18:20,349 - INFO -     Min: 0.00
+2026-06-11 23:18:20,350 - INFO -     Zero common neighbor ratio: 37.67%
+2026-06-11 23:18:20,350 - INFO - 
+Seed 45 test results (no negative sampling):
+2026-06-11 23:18:20,351 - INFO - Test MRR: 0.5657
+2026-06-11 23:18:20,351 - INFO - Test HITS@10: 0.6456
+2026-06-11 23:18:20,351 - INFO - Test HITS@20: 0.6609
+2026-06-11 23:18:20,379 - INFO - 
+################################################################################
+2026-06-11 23:18:20,379 - INFO - Running experiment 5/5 - Random seed: 46
+2026-06-11 23:18:20,379 - INFO - ################################################################################
+2026-06-11 23:18:20,380 - INFO - 
+============================================================
+2026-06-11 23:18:20,380 - INFO - Running experiment (no negative sampling) - Random seed: 46
+2026-06-11 23:18:20,381 - INFO - ============================================================
+2026-06-11 23:18:21,805 - INFO - 
+=== LAGNN Experiment (No Negative Sampling) - Random Seed: 46 ===
+2026-06-11 23:18:21,806 - INFO - Device: cuda
+2026-06-11 23:18:21,806 - INFO - Total nodes: 1899
+2026-06-11 23:18:21,807 - INFO - Train edges: 47868, Val edges: 5983, Test edges: 5984
+2026-06-11 23:18:21,807 - INFO - Positional encoding: True
+2026-06-11 23:18:21,808 - INFO - Time information: True
+2026-06-11 23:18:21,808 - INFO - In-neighbors: True
+2026-06-11 23:18:21,808 - INFO - Out-neighbors: True
+2026-06-11 23:18:21,808 - INFO - Interaction frequency encoding: True (integrated into attention)
+2026-06-11 23:18:21,809 - INFO - Common neighbor encoding: True (only historical count, integrated into attention)
+2026-06-11 23:18:43,195 - INFO - Epoch 1 | Loss: 0.6482 | Val MRR: 0.0094 | HITS@10: 0.0194
+2026-06-11 23:18:43,203 - INFO - Model improved, best val MRR: 0.0094, saved to best_model_seed_46.pth
+2026-06-11 23:19:02,338 - INFO - Epoch 2 | Loss: 0.5804 | Val MRR: 0.1181 | HITS@10: 0.1997
+2026-06-11 23:19:02,346 - INFO - Model improved, best val MRR: 0.1181, saved to best_model_seed_46.pth
+2026-06-11 23:19:21,511 - INFO - Epoch 3 | Loss: 0.4948 | Val MRR: 0.3115 | HITS@10: 0.3966
+2026-06-11 23:19:21,520 - INFO - Model improved, best val MRR: 0.3115, saved to best_model_seed_46.pth
+2026-06-11 23:19:41,226 - INFO - Epoch 4 | Loss: 0.4489 | Val MRR: 0.3985 | HITS@10: 0.4760
+2026-06-11 23:19:41,234 - INFO - Model improved, best val MRR: 0.3985, saved to best_model_seed_46.pth
+2026-06-11 23:20:00,754 - INFO - Epoch 5 | Loss: 0.4232 | Val MRR: 0.4461 | HITS@10: 0.5113
+2026-06-11 23:20:00,763 - INFO - Model improved, best val MRR: 0.4461, saved to best_model_seed_46.pth
+2026-06-11 23:20:20,278 - INFO - Epoch 6 | Loss: 0.4055 | Val MRR: 0.4640 | HITS@10: 0.5288
+2026-06-11 23:20:20,286 - INFO - Model improved, best val MRR: 0.4640, saved to best_model_seed_46.pth
+2026-06-11 23:20:40,019 - INFO - Epoch 7 | Loss: 0.3920 | Val MRR: 0.4757 | HITS@10: 0.5427
+2026-06-11 23:20:40,028 - INFO - Model improved, best val MRR: 0.4757, saved to best_model_seed_46.pth
+2026-06-11 23:20:59,659 - INFO - Epoch 8 | Loss: 0.3813 | Val MRR: 0.4844 | HITS@10: 0.5554
+2026-06-11 23:20:59,668 - INFO - Model improved, best val MRR: 0.4844, saved to best_model_seed_46.pth
+2026-06-11 23:21:19,004 - INFO - Epoch 9 | Loss: 0.3719 | Val MRR: 0.4933 | HITS@10: 0.5659
+2026-06-11 23:21:19,013 - INFO - Model improved, best val MRR: 0.4933, saved to best_model_seed_46.pth
+2026-06-11 23:21:38,827 - INFO - Epoch 10 | Loss: 0.3653 | Val MRR: 0.4986 | HITS@10: 0.5713
+2026-06-11 23:21:38,837 - INFO - Model improved, best val MRR: 0.4986, saved to best_model_seed_46.pth
+2026-06-11 23:21:58,599 - INFO - Epoch 11 | Loss: 0.3576 | Val MRR: 0.5024 | HITS@10: 0.5760
+2026-06-11 23:21:58,607 - INFO - Model improved, best val MRR: 0.5024, saved to best_model_seed_46.pth
+2026-06-11 23:22:18,505 - INFO - Epoch 12 | Loss: 0.3513 | Val MRR: 0.5055 | HITS@10: 0.5815
+2026-06-11 23:22:18,513 - INFO - Model improved, best val MRR: 0.5055, saved to best_model_seed_46.pth
+2026-06-11 23:22:38,988 - INFO - Epoch 13 | Loss: 0.3467 | Val MRR: 0.5092 | HITS@10: 0.5852
+2026-06-11 23:22:38,998 - INFO - Model improved, best val MRR: 0.5092, saved to best_model_seed_46.pth
+2026-06-11 23:22:59,308 - INFO - Epoch 14 | Loss: 0.3418 | Val MRR: 0.5108 | HITS@10: 0.5872
+2026-06-11 23:22:59,317 - INFO - Model improved, best val MRR: 0.5108, saved to best_model_seed_46.pth
+2026-06-11 23:23:19,487 - INFO - Epoch 15 | Loss: 0.3375 | Val MRR: 0.5156 | HITS@10: 0.5915
+2026-06-11 23:23:19,496 - INFO - Model improved, best val MRR: 0.5156, saved to best_model_seed_46.pth
+2026-06-11 23:23:39,696 - INFO - Epoch 16 | Loss: 0.3330 | Val MRR: 0.5205 | HITS@10: 0.5955
+2026-06-11 23:23:39,704 - INFO - Model improved, best val MRR: 0.5205, saved to best_model_seed_46.pth
+2026-06-11 23:23:59,275 - INFO - Epoch 17 | Loss: 0.3293 | Val MRR: 0.5217 | HITS@10: 0.5957
+2026-06-11 23:23:59,283 - INFO - Model improved, best val MRR: 0.5217, saved to best_model_seed_46.pth
+2026-06-11 23:24:18,718 - INFO - Epoch 18 | Loss: 0.3267 | Val MRR: 0.5232 | HITS@10: 0.6017
+2026-06-11 23:24:18,726 - INFO - Model improved, best val MRR: 0.5232, saved to best_model_seed_46.pth
+2026-06-11 23:24:38,331 - INFO - Epoch 19 | Loss: 0.3230 | Val MRR: 0.5252 | HITS@10: 0.6024
+2026-06-11 23:24:38,340 - INFO - Model improved, best val MRR: 0.5252, saved to best_model_seed_46.pth
+2026-06-11 23:24:57,467 - INFO - Epoch 20 | Loss: 0.3197 | Val MRR: 0.5241 | HITS@10: 0.6002
+2026-06-11 23:25:16,703 - INFO - Epoch 21 | Loss: 0.3166 | Val MRR: 0.5261 | HITS@10: 0.6030
+2026-06-11 23:25:16,711 - INFO - Model improved, best val MRR: 0.5261, saved to best_model_seed_46.pth
+2026-06-11 23:25:36,128 - INFO - Epoch 22 | Loss: 0.3140 | Val MRR: 0.5256 | HITS@10: 0.6034
+2026-06-11 23:25:55,625 - INFO - Epoch 23 | Loss: 0.3112 | Val MRR: 0.5276 | HITS@10: 0.6061
+2026-06-11 23:25:55,634 - INFO - Model improved, best val MRR: 0.5276, saved to best_model_seed_46.pth
+2026-06-11 23:26:15,138 - INFO - Epoch 24 | Loss: 0.3089 | Val MRR: 0.5289 | HITS@10: 0.6097
+2026-06-11 23:26:15,147 - INFO - Model improved, best val MRR: 0.5289, saved to best_model_seed_46.pth
+2026-06-11 23:26:34,672 - INFO - Epoch 25 | Loss: 0.3067 | Val MRR: 0.5302 | HITS@10: 0.6087
+2026-06-11 23:26:34,681 - INFO - Model improved, best val MRR: 0.5302, saved to best_model_seed_46.pth
+2026-06-11 23:26:54,551 - INFO - Epoch 26 | Loss: 0.3041 | Val MRR: 0.5309 | HITS@10: 0.6091
+2026-06-11 23:26:54,559 - INFO - Model improved, best val MRR: 0.5309, saved to best_model_seed_46.pth
+2026-06-11 23:27:14,151 - INFO - Epoch 27 | Loss: 0.3017 | Val MRR: 0.5300 | HITS@10: 0.6102
+2026-06-11 23:27:33,798 - INFO - Epoch 28 | Loss: 0.2996 | Val MRR: 0.5306 | HITS@10: 0.6094
+2026-06-11 23:27:53,672 - INFO - Epoch 29 | Loss: 0.2976 | Val MRR: 0.5321 | HITS@10: 0.6089
+2026-06-11 23:27:53,681 - INFO - Model improved, best val MRR: 0.5321, saved to best_model_seed_46.pth
+2026-06-11 23:28:13,439 - INFO - Epoch 30 | Loss: 0.2957 | Val MRR: 0.5314 | HITS@10: 0.6117
+2026-06-11 23:28:33,460 - INFO - Epoch 31 | Loss: 0.2938 | Val MRR: 0.5279 | HITS@10: 0.6091
+2026-06-11 23:28:54,004 - INFO - Epoch 32 | Loss: 0.2915 | Val MRR: 0.5339 | HITS@10: 0.6112
+2026-06-11 23:28:54,013 - INFO - Model improved, best val MRR: 0.5339, saved to best_model_seed_46.pth
+2026-06-11 23:29:14,233 - INFO - Epoch 33 | Loss: 0.2902 | Val MRR: 0.5336 | HITS@10: 0.6131
+2026-06-11 23:29:34,001 - INFO - Epoch 34 | Loss: 0.2882 | Val MRR: 0.5307 | HITS@10: 0.6087
+2026-06-11 23:29:53,832 - INFO - Epoch 35 | Loss: 0.2864 | Val MRR: 0.5311 | HITS@10: 0.6091
+2026-06-11 23:30:13,295 - INFO - Epoch 36 | Loss: 0.2847 | Val MRR: 0.5304 | HITS@10: 0.6124
+2026-06-11 23:30:32,750 - INFO - Epoch 37 | Loss: 0.2834 | Val MRR: 0.5298 | HITS@10: 0.6116
+2026-06-11 23:30:32,750 - INFO - Early stopping after 5 epochs without improvement.
+2026-06-11 23:30:49,496 - INFO - 
+Feature statistics (test set):
+2026-06-11 23:30:49,496 - INFO -   Interaction count:
+2026-06-11 23:30:49,498 - INFO -     Mean: 0.25
+2026-06-11 23:30:49,498 - INFO -     Median: 0.11
+2026-06-11 23:30:49,499 - INFO -     Max: 1.00
+2026-06-11 23:30:49,499 - INFO -     Min: 0.01
+2026-06-11 23:30:49,500 - INFO -   Common neighbor count (historical):
+2026-06-11 23:30:49,500 - INFO -     Mean: 0.03
+2026-06-11 23:30:49,501 - INFO -     Median: 0.01
+2026-06-11 23:30:49,501 - INFO -     Max: 0.70
+2026-06-11 23:30:49,502 - INFO -     Min: 0.00
+2026-06-11 23:30:49,502 - INFO -     Zero common neighbor ratio: 37.67%
+2026-06-11 23:30:49,502 - INFO - 
+Seed 46 test results (no negative sampling):
+2026-06-11 23:30:49,503 - INFO - Test MRR: 0.5641
+2026-06-11 23:30:49,503 - INFO - Test HITS@10: 0.6397
+2026-06-11 23:30:49,504 - INFO - Test HITS@20: 0.6576
+2026-06-11 23:30:49,526 - INFO - 
+====================================================================================================
+2026-06-11 23:30:49,526 - INFO - LAGNN Results Summary (with interaction frequency and common neighbor encoding)
+2026-06-11 23:30:49,527 - INFO - ====================================================================================================
+2026-06-11 23:30:49,528 - INFO - 
+Metric     | Seed 42         | Seed 43         | Seed 44         | Seed 45         | Seed 46        
+2026-06-11 23:30:49,528 - INFO - -------------------------------------------------------------------------------------
+2026-06-11 23:30:49,528 - INFO - MRR        |     0.5699 |     0.5701 |     0.5574 |     0.5657 |     0.5641
+2026-06-11 23:30:49,529 - INFO - HITS@1     |     0.5099 |     0.5109 |     0.4993 |     0.5114 |     0.5112
+2026-06-11 23:30:49,529 - INFO - HITS@3     |     0.6183 |     0.6192 |     0.6026 |     0.6073 |     0.6044
+2026-06-11 23:30:49,529 - INFO - HITS@5     |     0.6369 |     0.6324 |     0.6203 |     0.6228 |     0.6215
+2026-06-11 23:30:49,529 - INFO - HITS@10    |     0.6539 |     0.6504 |     0.6425 |     0.6456 |     0.6397
+2026-06-11 23:30:49,530 - INFO - HITS@20    |     0.6698 |     0.6663 |     0.6628 |     0.6609 |     0.6576
+2026-06-11 23:30:49,530 - INFO - HITS@50    |     0.6937 |     0.6877 |     0.6828 |     0.6893 |     0.6810
+2026-06-11 23:30:49,531 - INFO - HITS@100   |     0.7164 |     0.7102 |     0.7059 |     0.7121 |     0.7052
+2026-06-11 23:30:49,531 - INFO - HITS@200   |     0.7450 |     0.7380 |     0.7328 |     0.7381 |     0.7370
+2026-06-11 23:30:49,531 - INFO - HITS@500   |     0.8073 |     0.7998 |     0.8005 |     0.8011 |     0.7991
+2026-06-11 23:30:49,532 - INFO - HITS@1000  |     0.8785 |     0.8747 |     0.8762 |     0.8810 |     0.8787
+2026-06-11 23:30:49,532 - INFO - 
+-------------------------------------------------------------------------------------
+2026-06-11 23:30:49,532 - INFO - Summary (mean ± std)
+2026-06-11 23:30:49,532 - INFO - -------------------------------------------------------------------------------------
+2026-06-11 23:30:49,533 - INFO - MRR        | 0.5654 ± 0.0046  [range: 0.5574 - 0.5701]
+2026-06-11 23:30:49,533 - INFO - HITS@1     | 0.5085 ± 0.0046  [range: 0.4993 - 0.5114]
+2026-06-11 23:30:49,534 - INFO - HITS@3     | 0.6104 ± 0.0070  [range: 0.6026 - 0.6192]
+2026-06-11 23:30:49,534 - INFO - HITS@5     | 0.6268 ± 0.0066  [range: 0.6203 - 0.6369]
+2026-06-11 23:30:49,535 - INFO - HITS@10    | 0.6464 ± 0.0052  [range: 0.6397 - 0.6539]
+2026-06-11 23:30:49,535 - INFO - HITS@20    | 0.6635 ± 0.0042  [range: 0.6576 - 0.6698]
+2026-06-11 23:30:49,535 - INFO - HITS@50    | 0.6869 ± 0.0046  [range: 0.6810 - 0.6937]
+2026-06-11 23:30:49,536 - INFO - HITS@100   | 0.7100 ± 0.0041  [range: 0.7052 - 0.7164]
+2026-06-11 23:30:49,536 - INFO - HITS@200   | 0.7382 ± 0.0039  [range: 0.7328 - 0.7450]
+2026-06-11 23:30:49,537 - INFO - HITS@500   | 0.8016 ± 0.0030  [range: 0.7991 - 0.8073]
+2026-06-11 23:30:49,537 - INFO - HITS@1000  | 0.8778 ± 0.0022  [range: 0.8747 - 0.8810]
+2026-06-11 23:30:49,539 - INFO - 
+====================================================================================================
+2026-06-11 23:30:49,539 - INFO - LAGNN experiment completed!
+2026-06-11 23:30:49,539 - INFO - Results saved to:
+2026-06-11 23:30:49,540 - INFO -   - lagnn_results_with_interaction_features.txt (detailed results)
+2026-06-11 23:30:49,540 - INFO -   - seed_comparison_with_features.png (seed comparison plot)
+2026-06-11 23:30:49,540 - INFO - ====================================================================================================
